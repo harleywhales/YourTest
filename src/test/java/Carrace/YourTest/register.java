@@ -40,10 +40,10 @@ public register(){
 		   register_page.send_text(Email_Text_Field, WEG_email);
 		   break;
 	   case"password":
-		   register_page.send_text(Preffered_username_Textfield, WEG_password);
+		   register_page.send_text(Password_textfield , WEG_password);
 		   break;
 	   case"Confirm Password":
-		   register_page.send_text(WEG_Password_confirm, WEG_Password_confirm);
+		   register_page.send_text(confirm_Password_textfield, WEG_Password_confirm);
 		   break;
 		   
 	   

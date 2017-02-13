@@ -12,7 +12,7 @@ public static final String WEG = "whales";
 public static final String WEG_email = "harleywhales09@gmail.com";
 public static final String WEG_password = "harley";
 public static final String WEG_Password_confirm = "harley";
-public static final String register_on_the_form_button = "submit_button";
+public static final String register_on_the_form_button = "button";
 
 
 
