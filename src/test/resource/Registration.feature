@@ -3,7 +3,7 @@ I want to be able to register
 
 Background: See landing page
 Given I launch the "url"
-Then I see the "Login" page displayed
+Then I see the "login" page displayed
 
 Scenario: Register
 Given I click "register" button

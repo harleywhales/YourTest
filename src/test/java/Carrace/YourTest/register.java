@@ -52,8 +52,8 @@ public register(){
 
 	
 
-	//@Then("^\"([^\"]*)\" is dispalyed$")
-	//public void is_dispalyed(String arg1) throws Throwable {
+	@Then("^\"([^\"]*)\" is dispalyed$")
+	public void is_dispalyed(String arg1) throws Throwable {
 	   
 	}
 
