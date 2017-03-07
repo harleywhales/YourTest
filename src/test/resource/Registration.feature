@@ -12,4 +12,5 @@ When I enter "Preffered_username"
 And I enter "password"
 Then I enter "Confirm Password"
 And I click "register_on_the_form" button
+And I see "Home" page displayed
 

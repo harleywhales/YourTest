@@ -22,8 +22,17 @@ public class Landing_main extends drivers implements Homepage_inti {
 	}
 
 	@Then("^I see the \"([^\"]*)\" page displayed$")
-	public void i_see_the_page_displayed(String login) throws Throwable {
-		Homepage.assert_text(login);
+	public void i_see_the_page_displayed(String text) throws Throwable {
+		switch (text){
+		case "Login":
+			Homepage.assert_text("Login");
+			break;
+			
+	//	case "Home":
+		//	Homepage.assert_text("Home");
+			
+			default:
+		}
 	}
 
 	@After

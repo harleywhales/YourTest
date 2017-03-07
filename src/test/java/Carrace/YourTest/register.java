@@ -4,6 +4,7 @@ import org.openqa.selenium.WebDriver;
 
 import Auto.Homepage_inti;
 import cucumber.api.java.en.Given;
+import cucumber.api.java.en.Then;
 
 public class register implements Homepage_inti{
 	
@@ -45,7 +46,7 @@ public register(){
 	   case"Confirm Password":
 		   register_page.send_text(confirm_Password_textfield, WEG_Password_confirm);
 		   break;
-		   
+	  
 	   
 	   }
 	}
@@ -53,7 +54,15 @@ public register(){
 	
 
 	@Then("^\"([^\"]*)\" is dispalyed$")
-	public void is_dispalyed(String arg1) throws Throwable {
+	public void is_dispalyed(String reg_asst) throws Throwable {
+
+		switch(reg_asst){
+		 case "Home":
+				register_page.assert_text("Home");
+				break;
+		}
+		
+	}
 	   
 	}
 

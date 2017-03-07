@@ -25,7 +25,7 @@ public class Helper_class extends drivers implements Homepage_inti{
 	public void browser_set_up(){
 		driver.manage().window().maximize();
 		driver.manage().deleteAllCookies();
-		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 	
 	}
 	public void assert_text(String text){
@@ -36,4 +36,5 @@ public class Helper_class extends drivers implements Homepage_inti{
 	public void close_browser(){
 		driver.close();
 	}
+
 }
