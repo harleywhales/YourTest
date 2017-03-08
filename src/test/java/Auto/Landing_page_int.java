@@ -1,11 +1,11 @@
 package Auto;
 
-public interface Homepage_inti {
+public interface Landing_page_int {
 //public static final String Test_url = "http://automatetillinfinity.co.uk/";
 String Base_url = "http://automatetillinfinity.co.uk/";
 public static final String Register_Button = "reg_login";
-public static final String Email_Text_Field = "email";
-public static final String Preffered_username_Textfield = "username";
+public static final String Email_Text_Field = "#email";
+public static final String Preffered_username_Textfield = "Username";
 public static final String Password_textfield = "passwd";
 public static final String confirm_Password_textfield = "passwd2";
 public static final String WEG = "ade101";

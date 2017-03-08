@@ -2,11 +2,11 @@ package Carrace.YourTest;
 
 import org.openqa.selenium.WebDriver;
 
-import Auto.Homepage_inti;
+import Auto.Landing_page_int;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 
-public class register implements Homepage_inti{
+public class register implements Landing_page_int{
 	
 WebDriver driver;
 

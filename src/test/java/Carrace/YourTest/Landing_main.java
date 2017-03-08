@@ -1,12 +1,12 @@
 package Carrace.YourTest;
 
-import Auto.Homepage_inti;
+import Auto.Landing_page_int;
 import cucumber.api.java.After;
 import cucumber.api.java.Before;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 
-public class Landing_main extends drivers implements Homepage_inti {
+public class Landing_main extends drivers implements Landing_page_int {
 
 	
 	Helper_class Homepage = new Helper_class();
