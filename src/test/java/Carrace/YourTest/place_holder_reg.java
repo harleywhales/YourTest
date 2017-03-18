@@ -15,7 +15,7 @@ public class place_holder_reg implements Reg_page_int, Landing_page_int{
 	public void i_confirm_text_field_has_a_place_holder_of(String element_locator, String value) throws Throwable {
 	   switch(element_locator){
 	   case"Email Address":
-		  reg_page.assert_text(Email_Text_Field, EMAIL_AD_LOCATOR, value);
+		  reg_page.assert_text(EMAIL_AD_TEXT_FIELD_LOCATOR, EMAIL_AD_LOCATOR, value);
 		  break;
 		  
 	   case"username":

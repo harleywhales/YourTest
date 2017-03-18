@@ -5,6 +5,7 @@ Background: See landing page
 Given I launch the "url"
 Then I see the "login" page displayed
 
+
 Scenario: Register
 Given I click "register" button
 And I enter "Email address"

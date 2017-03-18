@@ -1,6 +1,10 @@
 Carrace\YourTest\drivers.class
-Carrace\YourTest\Efficient_Registration.class
 Carrace\YourTest\register.class
-Carrace\YourTest\Helper_class.class
 Carrace\YourTest\Landing_main.class
-Auto\Homepage_inti.class
+Auto\Reg_page_int.class
+Carrace\YourTest\place_holder_reg.class
+Auto\Landing_page_int.class
+Carrace\YourTest\loginlogout.class
+Carrace\YourTest\Efficient_Registration.class
+Carrace\YourTest\Helper_class.class
+Carrace\YourTest\Runner_class.class

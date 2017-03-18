@@ -12,15 +12,24 @@ public class Helper_class extends drivers implements Landing_page_int{
 	public void launch_url(){
 		driver.get(Base_url);
 	}
+	public void element_enabled(String text){
+		driver.findElement(By.id(text)).isEnabled();
+	}
+	public void element_is_displayed(String text){
+		driver.findElement(By.id(text)).isDisplayed();
+	}
+	public void do_click_using_xpath(String click) throws Exception{
+		driver.findElement(By.xpath(click)).click();
+	}
 
-	public void do_click(String button) {
+	public void do_click(String button) throws InterruptedException {
 		driver.findElement(By.id(button)).click();
 		
-		//Thread.sleep(5000);
+		Thread.sleep(3000);
 	}
 	
 	public void send_text(String sendtext_locator, String sendtext){
-		driver.findElement(By.name(sendtext_locator)).sendKeys(sendtext);
+		driver.findElement(By.id(sendtext_locator)).sendKeys(sendtext);
 	}
 	public void browser_set_up(){
 		driver.manage().window().maximize();

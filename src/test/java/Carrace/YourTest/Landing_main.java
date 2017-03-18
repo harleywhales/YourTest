@@ -27,10 +27,13 @@ public class Landing_main extends drivers implements Landing_page_int {
 		case "Login":
 			Homepage.assert_text("Login");
 			break;
-			
-	//	case "Home":
-		//	Homepage.assert_text("Home");
-			
+	case "Home":
+		Homepage.assert_text("Home");
+		break;
+	case "Registration successful":
+		Homepage.assert_text(Registration_successful_locator, Registration_successful_message);
+			break;
+				
 			default:
 		}
 	}
